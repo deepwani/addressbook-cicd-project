@@ -6,7 +6,7 @@ pipeline{
                  git url: 'https://github.com/akshu20791/addressbook-cicd-project'
           }
         }
-        stage('compiling the code'){
+        stage('Compiling the code'){
           steps{
                  sh 'mvn compile'
           }
@@ -26,7 +26,7 @@ pipeline{
                 sh 'mvn package'
             }
         }
-        stage("deploy the project on tomcat"){
+        stage("Deploy the project on tomcat"){
             steps{
                 sh "sudo mv /var/lib/jenkins/workspace/mypipeline/target/addressbook.war /home/ubuntu/apache-tomcat-8.5.100/webapps/"
             }
