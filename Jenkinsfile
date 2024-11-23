@@ -6,7 +6,7 @@ pipeline{
                  git url: 'https://github.com/akshu20791/addressbook-cicd-project'
           }
         }
-        stage('Compiling The Code'){
+        stage('compiling the code'){
           steps{
                  sh 'mvn compile'
           }
