@@ -4,7 +4,7 @@ new commit  pipeline{
         maven 'mymaven131'
     }
     //more commits on the file 11/22/2024
-    //commit on github-- new one
+    //commit on github-- new one   bj
     agent any
     new ctsage added
     stages{
