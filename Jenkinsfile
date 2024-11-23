@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('github validation'){
+        stage('GitHub Validation'){
           steps{
                  git url: 'https://github.com/akshu20791/addressbook-cicd-project'
           }
