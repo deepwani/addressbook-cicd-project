@@ -3,8 +3,8 @@ new commit  pipeline{
         jdk 'myjava'
         maven 'mymaven131'
     }
-    //more commits on the file 11/22/2024
-    //commit on github-- new one   bj
+    //more commits on the file 11/23/2024
+    //commit on github-- new one  
     agent any
     new ctsage added
     stages{
