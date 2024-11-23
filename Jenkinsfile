@@ -11,17 +11,17 @@ pipeline{
                  sh 'mvn compile'
           }
         }
-        stage('testing the code'){
+        stage('Testing the Code'){
             steps{
                 sh 'mvn test'
             }
         }
-        stage('qa of the code'){
+        stage('QA of the code'){
             steps{
                 sh 'mvn pmd:pmd'
             }
         }
-        stage('package'){
+        stage('Package'){
             steps{
                 sh 'mvn package'
             }
