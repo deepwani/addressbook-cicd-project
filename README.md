@@ -5,9 +5,6 @@ this is our first change and change and eit test asdasdsdasdasd
 this is my first upate hi this is my first update 
 sdds
 this this is change
-hello xczczs
-hiasdad
-oollaalalaa
 this is my final repo adsadad
 this is the update
 this is newipdate
